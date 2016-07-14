@@ -1,4 +1,4 @@
-# vierton-dark-syntax theme
+# vierton-regular-syntax theme
 
 A short description of your theme.
 

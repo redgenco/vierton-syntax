@@ -63,14 +63,14 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .comment {
-  color: @light-gray;
+  color: @v-cyan;
 }
 
 .keyword {
-  color: @purple;
+  color: @v-purple;
 
   &.control {
-    color: @purple;
+    color: @v-purple;
   }
 
   &.operator {
@@ -82,16 +82,16 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.unit {
-    color: @orange;
+    color: @v-orange;
   }
 }
 
 .storage {
-  color: @purple;
+  color: @v-purple;
 }
 
 .constant {
-  color: @orange;
+  color: @v-orange;
 
   &.character.escape {
     color: @cyan;
@@ -111,10 +111,10 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .variable {
-  color: @red;
+  color: @v-yellow;
 
   &.interpolation {
-    color: darken(@red, 10%);
+    color: darken(@v-yellow, 10%);
   }
 
   &.parameter.function {
@@ -128,7 +128,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .string {
-  color: @green;
+  color: @v-blue;
 
 
   &.regexp {
@@ -147,7 +147,7 @@ atom-text-editor .search-results .marker.current-result .region,
 .punctuation {
   &.definition {
     &.comment {
-      color: @light-gray;
+      color: @v-cyan;
     }
 
     &.string,
@@ -214,12 +214,12 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.name.tag {
-    color: @red;
+    color: @v-yellow;
     text-decoration: underline;
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @v-orange;
 
     &.id {
       color: @blue;
