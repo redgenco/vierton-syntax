@@ -1,11 +1,13 @@
 {
   "name": "vierton-regular-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "1.0.0",
+  "description": "A clean, modern syntax theme with a teal underlay.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "teal",
+    "vierton"
   ],
   "repository": "https://github.com/atom/vierton-regular-syntax",
   "license": "MIT",
