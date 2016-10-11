@@ -2,4 +2,4 @@
 
 A clean, modern syntax theme with a teal underlay.
 
-![Screenshot](http://i.imgur.com/1oIe0uI.png)
+![Screenshot](http://i.imgur.com/0YPVjFx.png)
