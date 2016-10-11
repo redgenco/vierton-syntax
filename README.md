@@ -1,6 +1,6 @@
 # vierton-syntax theme
 
-![Vierton Title] (http://i.imgur.com/XfggZsN.png)
+![Vierton Title] (http://i.imgur.com/4RtbtCu.png)
 
 A clean, modern syntax theme suitable for both dark and light environments.
 
