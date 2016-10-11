@@ -35,7 +35,7 @@ atom-text-editor, :host {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @light-gray;
+    color: white;
   }
 
   .invisible {
@@ -67,14 +67,14 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .keyword {
-  color: @syntax-text-color; //
+  color: @syntax-text-color; // "using System.Collections;"
 
   &.control {
     color: @syntax-text-color-dark;
   }
 
   &.operator {
-    color: @syntax-text-color; //
+    color: @syntax-text-color; // Signs like "=" and ":"
   }
 
   &.other.special-method {
@@ -301,6 +301,8 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 }
 
+// MINIMAP COLORING
+
 atom-text-editor[mini] .scroll-view,
 :host([mini]) .scroll-view {
   padding-left: 1px;
@@ -309,4 +311,12 @@ atom-text-editor[mini] .scroll-view,
 atom-text-editor atom-text-editor-minimap::shadow .minimap-visible-area::after,
 atom-text-editor::shadow atom-text-editor-minimap::shadow .minimap-visible-area::after {
   background-color: rgba(255 , 255, 255, 0.25);
+}
+
+// BRACKET MATCHER
+
+.bracket-matcher {
+    border-bottom: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
 }
